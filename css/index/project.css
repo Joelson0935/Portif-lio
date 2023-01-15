@@ -1,0 +1,82 @@
+
+.title {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+.projects {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding-bottom: 1%;
+    border-bottom: 2px solid white;
+}
+
+.projects a {
+    width: 300px;
+    height: 90%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin: 1% 1.5% 3%;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding: 100px 10px 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.projects a:hover {
+    color: #D3D3D3;
+    transition: 1s ease-in-out;
+}
+
+#img1 {
+    background-image: url(https://m.media-amazon.com/images/I/71FzglJ2j3L._AC_SL1001_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBEaFdvPkHJDH2T4pgZTyKDCYSTAUZjLfrA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    background-image: url(http://www.astropt.org/blog/wp-content/uploads/2016/04/light-pillar-North-Cheyenne-Canyon-CO-Joe-Randall-e1452460171258.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img4 {
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2022/07/caverna-vulcanica-havai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img5 {
+    background-image: url(http://teatronasaladeaula.com.br/wp-content/uploads/2020/03/espa%C3%A7o-sideral.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 600px) {
+    .projects a {
+        width: 450px;
+        margin-bottom: 7%;
+    }
+}
