@@ -51,7 +51,7 @@
 
     .content h1 {
         width: 80%;
-        font-size: 300%;
+        font-size: 250%;
         margin: 0px;
         padding: 0px;
         transition: 0.5s ease-in-out;
@@ -60,7 +60,7 @@
     .content h1:hover {
         color: blueviolet;
         transition: 1s ease-in-out;
-        transform: translateX(100px);
+        transform: translateX(50px);
     }
 
     .content h2:hover {
