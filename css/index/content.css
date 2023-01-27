@@ -45,6 +45,15 @@
 
 @media(max-width: 600px) {
 
+    .content {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 5% 0px;
+    }
+
+
     .content h2 {
         font-size: 20px;
     }
@@ -60,13 +69,25 @@
     .content h1:hover {
         color: blueviolet;
         transition: 1s ease-in-out;
-        transform: translateX(50px);
+        transform: translateX(35px);
     }
 
     .content h2:hover {
         transition: 1s ease-in-out;
         color: blueviolet;
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .content p:hover {
+        color: blueviolet;
+        font-weight: bold;
+        transition: 1s ease-in-out;
+        font-size: 25px;
     }
 
 }
