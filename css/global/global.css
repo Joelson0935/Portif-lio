@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: rgba(255, 255, 255, 0.932);
     background-color: rgb(3, 19, 3);
     font-family: 'Raleway', sans-serif;
     overflow: auto;

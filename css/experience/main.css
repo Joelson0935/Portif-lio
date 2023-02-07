@@ -14,19 +14,19 @@
 }
 
 .main {
-    display: flex;
+    display: block;
     border-bottom: 2px solid white;
-    height: 600px;
+    max-height: 700px;
     width: 100%;
     overflow: auto;
 }
 
 .main-exp-1 {
     width: 50%;
-    height: 400px;
+    max-height: 1500px;
     padding: 10px 20px;
     box-sizing: border-box;
-    overflow: auto;
+    margin: 2% 25% 0;
 }
 
 .main-exp-1 h1:hover {
@@ -35,10 +35,8 @@
 }
 
 .main-exp-1 p:hover {
-    color: blueviolet;
     transition: 0.5s ease-in-out;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
 }
 
 .main-exp-1 h1 {
@@ -51,10 +49,10 @@
 
 .main-exp-2 {
     width: 50%;
-    height: 400px;
+    max-height: 1500px;
     padding: 10px 20px;
     box-sizing: border-box;
-    overflow: auto;
+    margin: 2% 25%;
 }
 
 .main-exp-2 h1 {
@@ -71,10 +69,8 @@
 }
 
 .main-exp-2 p:hover {
-    color: blueviolet;
     transition: 0.5s ease-in-out;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
 }
 
 @media(max-width: 700px) {
@@ -94,10 +90,8 @@
     }
 
     .main-exp-1 p:hover {
-        color: blueviolet;
         transition: 0.5s ease-in-out;
         font-size: 23px;
-        font-weight: bold;
     }
 
     .main-exp-2 {
@@ -106,10 +100,8 @@
     }
 
     .main-exp-2 p:hover {
-        color: blueviolet;
         transition: 0.5s ease-in-out;
         font-size: 23px;
-        font-weight: bold;
     }
 
 }

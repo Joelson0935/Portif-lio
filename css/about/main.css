@@ -1,8 +1,7 @@
 .main {
     width: 100%;
-    height: 500px;
+    max-height: 2000px;
     display: flex;
-    overflow: auto;
     border-bottom: 2px solid white;
     margin-top: 20px;
 }
@@ -36,9 +35,8 @@
 
 .main-text {
     width: 70%;
-    height: 400px;
-    margin-top: 3%;
-    padding: 1%;
+    height: 100%;
+    padding: 1% 2%;
     border-radius: 20px;
     box-sizing: border-box;
     overflow: auto;
@@ -46,17 +44,14 @@
 
 .main-text p {
     font-size: 30px;
-    padding: 30px;
-
 }
 
 .main-text p:hover {
-    color: blueviolet;
     font-size: 40px;
     transition: 1s ease-in-out;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1200px) {
 
     .title h1 {
         font-size: 40px;
@@ -74,18 +69,18 @@
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
-        margin: auto;
     }
 
     .main-img {
-        width: 70%;
+        width: 50%;
         height: 70%;
-        margin-left: 15%;
+        margin-left: 25%;
     }
 
     .main-text {
         width: 100%;
         align-items: center;
+        padding: 3%;
     }
 
     .main-text p {
@@ -93,8 +88,6 @@
     }
 
     .main-text p:hover {
-        color: blueviolet;
-        font-weight: bold;
         font-size: 25px;
         transition: 1s ease-in-out;
     }
